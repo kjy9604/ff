@@ -75,6 +75,7 @@
 </style>
 </head>
 <body>
+<!--가즈아  -->
 	<div class="div_main" id="div_main">
 		<div class="div_header" id="div_header">
             <table class="tb_header" id="tb_header">
