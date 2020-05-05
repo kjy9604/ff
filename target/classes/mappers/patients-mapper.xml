@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="memberMapper">
+
+	<resultMap type="Patients" id="PatientsResultSet">
+		<id property="PatientsNo" column="Patients_no" />
+		<result property="" column="" />
+	</resultMap>
+	
+	<insert id="insertPatients" parameterType="Patients">
+		insert into Patients
+		values(#{}, #{}, #{})
+	</insert>
+
+
+PATIENTS_NO
+PATIENTS_NAME
+PATIENTS_PNO
+INSURANCE
+ADDRESS
+PHONE
+FIRST_VISIT
+LAST_VISIT
+LAST_DO
+MO
+DAY_NOTE
+CHAIN_NOTE
+NIGHT
+EMERGENCY
+
+
+
+
+
+
+
+
+
+</mapper>

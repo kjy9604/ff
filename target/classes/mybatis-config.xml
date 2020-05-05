@@ -9,11 +9,13 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	</settings>
 	
 	<typeAliases>
+		<typeAlias type="com.kh.spring.Patients.vo.Patients" alias="Patients" />
 	</typeAliases>
 	
 	<!-- 기존에는 이 파일에서 DB 연결설정에 대한 정보를 기술했다면 
 		 스프링에서는 서버 실행과 동시에 바로 DB와 연결될 수 있게끔 다른 파일에 기술할거임 -->
 	<mappers>
+		<mapper resource="/mappers/patients-mapper.xml"/>
 	</mappers>	
 	
 </configuration>
